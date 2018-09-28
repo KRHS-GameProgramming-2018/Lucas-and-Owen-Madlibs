@@ -2,7 +2,7 @@ from getInput import *
 
 def playMadlibs():
     friend1 = getWord("Enter a Name: ",)
-    numAnimals = getNumber("Enter a number: ", 7, 9)
+    numAnimals = getNumber("Enter a number: ", 7, 8)
     animals1 = getWord("Enter a pluaral animal name: ")
     
     output = ""
