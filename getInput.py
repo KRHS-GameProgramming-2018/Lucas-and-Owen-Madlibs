@@ -48,7 +48,7 @@ def getNumber(prompt, minNumber, maxNumber):
 
 def isSwear(word):
     swearList = ["poop",
-                "piss"]
+                 "piss"]
     if word in swearList:
         return True
     else:
