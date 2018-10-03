@@ -28,6 +28,22 @@ def getWord(prompt):
             print "Watch your language!"
     return word
     
+    
+def getEd(prompt):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        if not isSwear(word):
+            goodInput = True
+        else:
+            print "Watch your language!"
+            break
+        
+        if word[-2:] != "ed":
+            goodInput = False
+            print "word must end in ed"
+    return word
+    
 def getNumber(prompt, minNumber, maxNumber):
     goodInput = False
     while not goodInput:
