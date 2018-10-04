@@ -74,7 +74,12 @@ def isSwear(word):
                  "ass"
                  "dick"
                  "bitch"
-                 "damn"]
+                 "damn"
+                 "tities"
+                "motherfucker"
+                "nigger"
+                "cunt"
+                "penis"]
     if word in swearList:
         return True
     else:
