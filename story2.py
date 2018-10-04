@@ -8,7 +8,7 @@ def playMadlibs():
     
     
     output = ""
-    output += friend1 + " is " + umAnimals + " years old. "
+    output += friend1 + " is " + umAnimals + " years old."
     output +=" Every week on " + day + ", " + friend1 + " goes to " + fastFoodRestuarant + "."
     
     return output
