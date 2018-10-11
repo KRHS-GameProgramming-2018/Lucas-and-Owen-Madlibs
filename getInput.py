@@ -40,7 +40,7 @@ def getEd(prompt):
         if not isSwear(word):
             goodInput = True
         else:
-            print "Watch your language!"
+            print "Invalid choice!"
             break
         
         if word[-2:] != "ed":
@@ -48,6 +48,21 @@ def getEd(prompt):
             print "word must end in ed"
     return word
     
+def getY(prompt):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        if not isSwear(word):
+            goodInput = True
+        else:
+            print "Invalid choice!"
+            break
+        
+        if word[-1:] != "y":
+            goodInput = False
+            print "name must end in y"
+    return word
+
 def getNumber(prompt, minNumber, maxNumber):
     goodInput = False
     while not goodInput:

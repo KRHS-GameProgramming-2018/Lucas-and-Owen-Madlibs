@@ -23,6 +23,5 @@ def showMenu():
     output += "|   Q) Quit                           |\n"
     output += "|                                     |\n"
     output += "---------------------------------------\n"
-
-    
+      
     return output
