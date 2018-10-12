@@ -12,7 +12,7 @@ while go:
 	response = getMenuInput()
 	if response == "Q":
 		go = False
-		print "Goodbye and thanks for playing"
+		print"Thanks for playing"
 	elif response == "1":
 		print story1.playMadlibs()
 		raw_input("Press Enter to Continue")
@@ -20,7 +20,7 @@ while go:
 		print story2.playMadlibs()
 		raw_input("Press Enter to Continue")
 	else:
-		print "OMG Got invalid menu option!!!"
+		print "Please pick a valid option!"
 		
 		
 
