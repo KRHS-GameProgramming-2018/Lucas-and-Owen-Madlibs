@@ -10,6 +10,10 @@ def getMenuInput():
             or response == "Two"):
             response = "2"
             goodInput = True
+        elif (response == "4" 
+            or response == "Four"):
+            response = "4"
+            goodInput = True
         elif (response == "Q"
               or response == "Quit"
               or response == "q"
@@ -17,7 +21,7 @@ def getMenuInput():
               or response == "X"
               or response == "Exit"):
               response = "Q"
-              goodInput = True              
+              goodInput = True  
         else:
             print "Please make a valid choice"
     return response
