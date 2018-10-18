@@ -26,7 +26,6 @@ while go:
         print story4.playMadlibs()
         raw_input("Press Enter to Continue")
     elif response == "3":
-        pass
-    else:
-        print "Please pick a valid option!"
+        print story3.playMadlibs()
+        raw_input ("Press input to continue")
     
