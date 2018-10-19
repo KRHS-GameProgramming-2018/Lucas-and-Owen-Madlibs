@@ -2,6 +2,7 @@ from screens import *
 from getInput import *
 import story1
 import story2
+import story3
 import story4
 
 print showSplash()
