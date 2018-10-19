@@ -20,6 +20,9 @@ while go:
     elif response == "2":
         print story2.playMadlibs()
         raw_input("Press Enter to Continue")
+    elif response == "3":
+        print story3.playMadlibs()
+        raw_input ("Press input to continue")
     elif response == "4":
         print showEasterEggImage()
         print story4.playMadlibs()
