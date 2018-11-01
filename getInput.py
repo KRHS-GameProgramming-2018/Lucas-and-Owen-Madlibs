@@ -71,6 +71,8 @@ def getY(prompt):
             print "name must end in y"
     return word
 
+# You should have a third getter; maybe a list based one like get state or animal
+
 def getNumber(prompt, minNumber, maxNumber):
     goodInput = False
     while not goodInput:
