@@ -18,7 +18,7 @@ def playMadlibs():
     bowlingBingo = getWord ("Enter the word bowling or bingo: ")
     
     output = ""
-    output +=  friend1 + " is " + number + " years old."
+    output +=  friend1 + " is " + number + " years old." # putting several concatenations on one line can make it harder to debug
     output +=" Every week on " + day + ", " + friend1 + " goes to " + restuarant + " and orders " + food + "."
     output +=" Today is " + day + " the 6th, " + month + " " + year + ". It is " + friend1 + "'s " + number + "th birthday. "
     output +=  friend1 + " has " + secondNum +  " grand children." 
