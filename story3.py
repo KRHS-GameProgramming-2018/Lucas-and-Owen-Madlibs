@@ -7,7 +7,7 @@ def playMadlibs ():
     adjective1=getWord ("enter an adjective")
     city=getWord ("name of city")
 
-
+    # 8 inputs and you should have a special getter
 
 
 
@@ -20,3 +20,4 @@ def playMadlibs ():
     output = year + " years ago, " +name1 +" fell in to the toxic " +liquid +"."
     output += name1 + " became known as " +adjective1 + " man."
     output = "everyone in " +city 
+    # You never return output
