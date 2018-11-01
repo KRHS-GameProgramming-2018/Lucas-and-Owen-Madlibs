@@ -1,3 +1,5 @@
+# 130/200 - BP; The stuff you have is great; but 2 of your stories are incomplete.
+
 from screens import *
 from getInput import *
 import story1
